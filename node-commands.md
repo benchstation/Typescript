@@ -8,14 +8,14 @@ npm init -y
 npm i typescript -D
 ```
 
-#### Locally compile Typescript into Javascript
+#### Locally compile Typescript into Javascript manually
 ```shell
 npx tsc [filename].ts
 ```
 
 > You need to use `npx` when executing NodeJS locally.
 
-#### Compile Typescript faster (configure with Code Runner extension)
+#### Executes files directly without the need to compile them to JavaScript manually
 ```shell
 npm i ts-node -D
 ```
